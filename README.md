@@ -96,14 +96,13 @@ graph.text(0.125, -0.28,
 
 plt.show()
 ```
+This part creates a graph of the data frames earlier. Each part can be tweaked to preference. `nrows` sets the number of rows of the graphs `ncols` sets the amount of graphs that you want to show. `axes[n]` decides which graph you want to work on. `.bar` sets the data frames you want to use for the graph. `.set` lets you configure the text shown on the graph, the `Title`, `xlabel`, and `ylabel` were configured here. <br>
+<br>
+The lower part contains the text that describes the information of the graph. it is configured by `.text`, the location can be set using the first two values, the content in the third, and lastly the size of the text. `plt.show()` is used to display the graph. <br>
 
+To see the main Python program for Experiment 3, click this link: https://github.com/charlesstevenang-dot/ECE-2112-PA4/blob/main/ECE2112_PA4%20.ipynb and download it, open it in Jupyter Notebook, then run all cells.
 
-
-
-
-
-
-
+Thanks For Reading!!<br>
 REPOSITORY VERSION HISTORY <br>
 September 13, 2026 - Created Repository <br>
 September 17, 2026 - Uploaded ipynb file. Finished README FILE <br>
